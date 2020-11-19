@@ -4,12 +4,12 @@ function toggleNav() {
     let gitNavUl= document.querySelector('.navUl')
 
     if (toggleNavStatus == false){
-        gitNavUl.style.display= "none";
+        gitNavUl.style.display= "block";
         toggleNavStatus=true;
     }
     
     else if (toggleNavStatus == true) {
-        gitNavUl.style.display="block";
+        gitNavUl.style.display="none";
         toggleNavStatus=false;
     }
 } 
