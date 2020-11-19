@@ -1,14 +1,14 @@
 body {
     font-family: lora;
     color: #212529;
-    background-image: url(../img/bg.jpg);
+    background-image: linear-gradient(rgba(47,23,15,.65),rgba(47,23,15,.65)),url(../img/bg.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
 }
 
 .container {
-    padding: 0 6%;
+    padding: 0 5%;
 }
 
 nav {
@@ -53,9 +53,10 @@ ul {
     padding: 0;
     margin: 0;
     font-family: sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: rgba(255,255,255,.7);
     font-weight: 600;
+    display: none;
 }
 
 li {
@@ -65,4 +66,51 @@ li {
 section {
     margin-top: 5rem;
     margin-bottom: 5rem;
+}
+
+.intro-img {
+    max-width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 3px;
+}
+
+.intro-text {
+    background-color: rgba(255,255,255,.85);
+    text-align: center;
+    padding: 3rem;
+    border-radius: 3px;
+}
+
+.section-heading-upper{
+    display: block;
+    font-size: 1rem;
+    font-weight: 800;
+    font-family: Raleway;
+    text-transform: uppercase;
+}
+
+.section-heading-lower {
+    display: block;
+    font-size: 3rem;
+    font-weight: 100;
+    font-family: Raleway;
+    line-height: 1.2;
+}
+
+p {
+    line-height: 1.75;
+    margin-bottom: 1.5rem;
+    margin-top: 0;
+}
+
+.intro-btn {
+    display: inline-block;
+    text-decoration: none;
+    font-size: .8rem;
+    font-weight: 800;
+    color: white;
+    cursor: pointer;
+    background-color: #e6a756;
+    border-radius: 5px;
+    padding: 1.5rem 2rem;   
 }
